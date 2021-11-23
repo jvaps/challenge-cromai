@@ -1,0 +1,21 @@
+.form {
+    grid-area: form;
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr 0.1fr 0.2fr;
+    grid-template-rows: 1fr;
+    place-content: center;
+    grid-column-gap: 0.2rem;
+}
+
+@media only screen and (max-width: 640px) {
+    .form {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-row-gap: 5vh;
+        margin: 0.2rem;
+    }
+    .form > select {
+        text-align: center;
+    }
+}

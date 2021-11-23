@@ -1,0 +1,6 @@
+1 - Inicia a página com 6 elementos, 4 de input que serão os valores de A, B, C, unidade de medida e um botão de submit
+e um campo com o resultado
+2 - Ao inserir pelo menos dois inputs , que será validado, e clicar em calcular envia para a API todos os valores, caso seja um faltante, envia um valor nulo,
+o back também fará a validação
+**2.1 - Caso seja enviado todos os valores para a API, verifica se é um triângulo pitagórico
+3 - A API irá retornar o resultado, seja do cálculo dos catetos (adjascente ou oposto) e da hipotenusa, **seja a validação do triângulo**
