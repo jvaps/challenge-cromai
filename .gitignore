@@ -7,9 +7,9 @@
 .idea
 # testing
 /coverage
-back-end/__pycache__
-back-end/venv
-back-end/front-end/node_modules
+__pycache__
+venv
+front-end/node_modules
 # production
 # /build
 # misc
