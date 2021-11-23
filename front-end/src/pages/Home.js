@@ -77,13 +77,15 @@ const Home = () => {
                     name="measure"
                     value={body.measure || ''} />
             </Form>
-            <Result>
-                {show &&
-                    result ? <div>{result + " " + body.measure}</div>
-                    :
-                    <div>Ainda não é possível verificar se é um triângulo pitagórico</div>
+            {show &&
 
-                }</Result>
+                <Result>
+
+                    {result ? <div>{result + " " + body.measure}</div>
+                        :
+                        <div>Ainda não é possível verificar se é um triângulo pitagórico</div>
+                    }
+                    </Result>}
         </div>
     );
 }
